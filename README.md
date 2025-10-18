@@ -1,2 +1,3 @@
 # sistema-funcionarios
 atividade de web
+- breve faço correçoes no Docker...
