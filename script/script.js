@@ -73,7 +73,7 @@ window.editarFuncionario = (i) => {
   editIndex = i;
 };
 
-// ---- Relatórios ----
+
 document.getElementById('btn-salario').addEventListener('click', () => {
   const filtrados = funcionarios.filter(f => f.salario > 5000);
   relatoriosDiv.innerHTML = `<p>Salários > 5000:</p>${filtrados.map(f => f.toString()).join('<br>')}`;
